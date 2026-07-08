@@ -66,7 +66,7 @@ header{
 .our-story{
     display: flex;
     align-items: center;
-    padding: 75px;
+    padding: 120px;
     gap: 30px;
 }
 .our-story div img{
@@ -91,3 +91,58 @@ header{
     cursor: pointer;
     transition: all .3s ease;
 }
+.popular-bg{
+    background-color: #F1E7D8;
+    padding: 80px 115.2px;
+    margin-bottom: 80px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+    gap: 30px;
+}
+.our-menu{
+    text-align: center;
+
+}
+.card-container .card{
+    background: #FFFFFF;
+    padding: 25px;
+    text-align: center;
+    border-radius: 20px;
+}
+.card-container .card img{
+    padding: 3.5px 0;    
+}
+.card-container .card h1{
+    padding: 3.5px 0;
+    font-size: 19px;
+    font-weight: bold;    
+}
+.card-container .card p{
+    padding:3.5px 0;
+    font-size: 16px;    
+}
+.top{
+    text-align: center;
+}
+table{
+   width: 50%;
+   margin: 0 auto;
+   border: 2px solid #2E2622;
+   border-collapse: collapse;
+   margin-top: 60px;
+   
+}
+th,td{
+    border: 1px solid #2E2622;
+    padding: 12px 5px;
+}
+thead {
+    background-color: #2E2622;
+}
+th{
+    color: #E9B44C;
+}
+
