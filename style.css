@@ -6,6 +6,9 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+section{
+    padding: 0 9%;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -133,7 +136,7 @@ table{
    border: 2px solid #2E2622;
    border-collapse: collapse;
    margin-top: 60px;
-   
+   margin-bottom: 90px;
 }
 th,td{
     border: 1px solid #2E2622;
@@ -145,4 +148,36 @@ thead {
 th{
     color: #E9B44C;
 }
-
+.image-container{
+    position: relative;
+}
+.image-container img{
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border: 2px dotted #2E2622;
+}
+.image-container .first{
+    width: 300px;
+    position: absolute;
+    color: rgb(1, 1, 1);
+    border: 2px solid salmon;
+    background: white;
+    bottom: 80px;
+    left: 40px;
+    padding: 10px;
+    border-radius: 18px;
+    box-shadow: 2px 5px 8px #2E2622; 
+}
+.image-container .second{
+    width: 100px;
+    position: absolute;
+    background: white;
+    text-align: center;
+    border: 2px solid #E9B44C;
+    padding: 25px;
+    border-radius: 50px;
+    top: 20px;
+    right: 30px;
+    box-shadow: 1px 1px 10px #E9B44C
+}
