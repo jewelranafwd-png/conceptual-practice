@@ -155,7 +155,8 @@ th{
     width: 100%;
     max-height: 300px;
     object-fit: cover;
-    border: 2px dotted #2E2622;
+    border: 2px solid #F0E9DD;
+    border-radius: 20px;
 }
 .image-container .first{
     width: 300px;
@@ -163,7 +164,7 @@ th{
     color: rgb(1, 1, 1);
     border: 2px solid salmon;
     background: white;
-    bottom: 80px;
+    bottom: 40px;
     left: 40px;
     padding: 10px;
     border-radius: 18px;
@@ -180,4 +181,31 @@ th{
     top: 20px;
     right: 30px;
     box-shadow: 1px 1px 10px #E9B44C
+}
+footer{
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.upper-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.upper-middle ul{
+    list-style: none;
+}
+.upper-middle ul a{
+    text-decoration: none;
+    
+}
+.upper-footer h3{
+    padding-bottom: 10px;
+}
+.upper-middle ul li{
+    padding: 2px 0;
+}
+.upper-right p{
+    padding: 3px 0;
+}
+.lower-footer{
+    padding: 10px 0;
 }
